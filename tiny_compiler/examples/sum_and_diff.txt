@@ -1,0 +1,15 @@
+func main(void) -> 0 {
+    // test function call
+    var x = 0;
+    var y = 0;
+    (x) <- scan(void);
+    (y) <- scan(void);
+    (x, y) <- sum_diff(x, y);
+    (void) <- print(x);
+    (void) <- print(y);
+    return (void);
+}
+
+func sum_diff(x, y) -> 2 {
+    return (x + y, x - y);
+}

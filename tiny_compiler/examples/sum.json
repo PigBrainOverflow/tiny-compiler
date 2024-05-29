@@ -1,0 +1,130 @@
+[
+    {
+        "type": "save"
+    },
+    {
+        "type": "call",
+        "imm": 7,
+        "nargs": 0,
+        "func_name": "main"
+    },
+    {
+        "type": "syscall",
+        "op": "terminate"
+    },
+    {
+        "type": "syscall",
+        "op": "print"
+    },
+    {
+        "type": "ret",
+        "ret_size": 0
+    },
+    {
+        "type": "syscall",
+        "op": "scan"
+    },
+    {
+        "type": "ret",
+        "ret_size": 1
+    },
+    {
+        "type": "loadi",
+        "imm": 0
+    },
+    {
+        "type": "loadi",
+        "imm": 0
+    },
+    {
+        "type": "loadi",
+        "imm": 0
+    },
+    {
+        "type": "save"
+    },
+    {
+        "type": "call",
+        "imm": 5,
+        "nargs": 0,
+        "func_name": "scan"
+    },
+    {
+        "type": "store",
+        "imm": 2
+    },
+    {
+        "type": "pop",
+        "imm": 2
+    },
+    {
+        "type": "load",
+        "imm": 0
+    },
+    {
+        "type": "load",
+        "imm": 2
+    },
+    {
+        "type": "lt"
+    },
+    {
+        "type": "rjmpz",
+        "imm": 10
+    },
+    {
+        "type": "load",
+        "imm": 1
+    },
+    {
+        "type": "load",
+        "imm": 0
+    },
+    {
+        "type": "add"
+    },
+    {
+        "type": "store",
+        "imm": 1
+    },
+    {
+        "type": "load",
+        "imm": 0
+    },
+    {
+        "type": "loadi",
+        "imm": 1
+    },
+    {
+        "type": "add"
+    },
+    {
+        "type": "store",
+        "imm": 0
+    },
+    {
+        "type": "rjmp",
+        "imm": -12
+    },
+    {
+        "type": "save"
+    },
+    {
+        "type": "load",
+        "imm": 1
+    },
+    {
+        "type": "call",
+        "imm": 3,
+        "nargs": 1,
+        "func_name": "print"
+    },
+    {
+        "type": "pop",
+        "imm": 2
+    },
+    {
+        "type": "ret",
+        "ret_size": 0
+    }
+]

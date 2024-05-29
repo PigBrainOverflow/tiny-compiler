@@ -1,0 +1,19 @@
+func main(void) -> 0 {
+    // test recursion
+    var n = 0;
+    (n) <- scan(void);
+    var res = 0;
+    (res) <- fact(n);
+    (void) <- print(res);
+    return (void);
+}
+
+func fact(x) -> 1 {
+    var y = 1;
+    if (x < 2) {}
+    else {
+        (y) <- fact(x - 1);
+        y = y * x;
+    }
+    return (y);
+}

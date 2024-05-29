@@ -1,0 +1,13 @@
+func main(void) -> 0 {
+    // test while
+    var i = 0;
+    var sum = 0;
+    var max = 0;
+    (max) <- scan(void);
+    while (i < max) {
+        sum = sum + i;
+        i = i + 1;
+    }
+    (void) <- print(sum);
+    return (void);
+}

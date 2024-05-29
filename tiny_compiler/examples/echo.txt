@@ -1,0 +1,7 @@
+func main(void) -> 0 {
+    // test scan & print
+    var x = 0;
+    (x) <- scan(void);
+    (void) <- print(x);
+    return (void);
+}

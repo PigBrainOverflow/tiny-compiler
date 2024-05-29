@@ -1,0 +1,16 @@
+func main(void) -> 0 {
+    // test ifelse
+    // grade >= 90: 4
+    // grade < 90: 3
+    var grade = 0;
+    var mark = 0;
+    (mark) <- scan(void);
+    if (mark < 90) {
+        grade = 3;
+    }
+    else {
+        grade = 4;
+    }
+    (void) <- print(grade);
+    return (void);
+}

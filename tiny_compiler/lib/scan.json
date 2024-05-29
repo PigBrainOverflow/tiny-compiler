@@ -1,0 +1,16 @@
+{
+    "type": "func",
+    "params": [],
+    "ret_size": 1,
+    "stmts": null,
+    "instructions": [
+        {
+            "type": "syscall",
+            "op": "scan"
+        },
+        {
+            "type": "ret",
+            "ret_size": 1
+        }
+    ]
+}
